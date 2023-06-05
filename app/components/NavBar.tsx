@@ -1,12 +1,6 @@
 "use client";
-import {
-  Link,
-  Navbar,
-  NavbarCollapseItemProps,
-  Text,
-  useTheme,
-} from "@nextui-org/react";
-import { useEffect, useState } from "react";
+import { Link, Navbar, Text, useTheme } from "@nextui-org/react";
+import { useState } from "react";
 
 export default function NavBar() {
   const { theme } = useTheme();

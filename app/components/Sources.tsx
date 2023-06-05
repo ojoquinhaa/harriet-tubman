@@ -1,4 +1,4 @@
-import { Avatar, Image } from "@nextui-org/react";
+import { Avatar } from "@nextui-org/react";
 import Link from "next/link";
 
 export default function Example() {
